@@ -207,16 +207,16 @@
             
             $('#example').DataTable({
                 ajax: {
-                url: 'data.txt',
+                url: 'https://github.com/sahilchhabra019/data/blob/main/data.txt',
                 dataSrc: '',
         },
 
                 "columns": [
-                    { "data": "rel_attr" },
-                    { "data": "source" },
-                    { "data": "surround_text" },
-                    { "data": "text" },
-                    { "data": "url" },
+                    { title: "rel_attr" },
+                    { title: "source" },
+                    { title: "surround_text" },
+                    { title: "text" },
+                    { title: "url" },
                 ]
             });
         
