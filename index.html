@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>theblueprints</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.0/css/jquery.dataTables.css">
+
+</head>
+
+<body>
+    <div class="tool_page">
+        <div class="cont">
+            <header class="header">
+                <a href="javascript:;" class="logo_link">
+                    <img src="https://www.theblueprints.co/wp-content/uploads/2022/04/Header-logo-243x63.png"
+                        alt="theblueprints.co" />
+                </a>
+                <nav class="nav_menu">
+                    <ul class="menu">
+                        <li class="menu_item">
+                            <a class="menu_item--link" href="#">Packages</a>
+                        </li>
+                        <li class="menu_item">
+                            <a class="menu_item--link" href="#">About us</a>
+                        </li>
+                        <li class="menu_item">
+                            <a class="menu_item--link" href="#">Contact us</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <div class="cont">
+            <table id="example" class="display" cellspacing="0" width="75%">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Position</th>
+                        <th>Office</th>
+                        <th>Extn.</th>
+                        <th>Start date</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <th>Name</th>
+                        <th>Position</th>
+                        <th>Office</th>
+                        <th>Extn.</th>
+                        <th>Start date</th>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+
+        <!-- <div class="cont">
+            <div class="div-table">
+                <div class="title">Backlink Data</div>
+                <div class="table">
+                    <div class="tr">
+                        <div class="td">S. No.</div>
+                        <div class="td">Link</div>
+                        <div class="td">Status</div>
+                        <div class="td">Type</div>
+                        <div class="td">Anchor text</div>
+                        <div class="td">Anchor href</div>
+                        <div class="td">Description</div>
+                    </div>
+                    <div class="tr">
+                        <div class="td">1</div>
+                        <div class="td"><a
+                                href="https://www.medsnews.com/health/different-cbd-consumption-methods-2021/"
+                                target="_blank">https://www.medsnews.com/health/different-cbd-consumption-methods-2021/</a>
+                        </div>
+                        <div class="td">Yes</div>
+                        <div class="td">NoFollow</div>
+                        <div class="td">Lorum ipsum gypsum generato demo text</div>
+                        <div class="td"><a href="https://createbetterdayscbd.co.uk/"
+                                target="_blank">https://createbetterdayscbd.co.uk/</a></div>
+                        <div class="td">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                            Ipsum has been the industry's standard dummy text ever since the 1500s, <a
+                                href="https://createbetterdayscbd.co.uk/"
+                                target="_blank">https://createbetterdayscbd.co.uk/</a> when an unknown printer took a
+                            galley of type and scrambled it to make a type specimen book. It has</div>
+                    </div>
+                    <div class="tr">
+                        <div class="td">1</div>
+                        <div class="td"><a
+                                href="https://www.medsnews.com/health/different-cbd-consumption-methods-2021/"
+                                target="_blank">https://www.medsnews.com/health/different-cbd-consumption-methods-2021/</a>
+                        </div>
+                        <div class="td">Yes</div>
+                        <div class="td">NoFollow</div>
+                        <div class="td">Lorum ipsum gypsum generato demo text</div>
+                        <div class="td"><a href="https://createbetterdayscbd.co.uk/"
+                                target="_blank">https://createbetterdayscbd.co.uk/</a></div>
+                        <div class="td">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                            Ipsum has been the industry's standard dummy text ever since the 1500s, <a
+                                href="https://createbetterdayscbd.co.uk/"
+                                target="_blank">https://createbetterdayscbd.co.uk/</a> when an unknown printer took a
+                            galley of type and scrambled it to make a type specimen book. It has</div>
+                    </div>
+                    <div class="tr">
+                        <div class="td">1</div>
+                        <div class="td"><a
+                                href="https://www.medsnews.com/health/different-cbd-consumption-methods-2021/"
+                                target="_blank">https://www.medsnews.com/health/different-cbd-consumption-methods-2021/</a>
+                        </div>
+                        <div class="td">Yes</div>
+                        <div class="td">NoFollow</div>
+                        <div class="td">Lorum ipsum gypsum generato demo text</div>
+                        <div class="td"><a href="https://createbetterdayscbd.co.uk/"
+                                target="_blank">https://createbetterdayscbd.co.uk/</a></div>
+                        <div class="td">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                            Ipsum has been the industry's standard dummy text ever since the 1500s, <a
+                                href="https://createbetterdayscbd.co.uk/"
+                                target="_blank">https://createbetterdayscbd.co.uk/</a> when an unknown printer took a
+                            galley of type and scrambled it to make a type specimen book. It has</div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- <footer class="footer">
+                <div class="cont d-flex">
+                    <div class="col col-1">
+                        <a href="#">
+                            <img src="https://www.theblueprints.co/wp-content/uploads/2022/04/Footer-logo.png" alt="" class="footer-logo" />
+                        </a>
+                    </div>
+                    <div class="col col-2">
+                        <ul class="footer-link">
+                            <li class="footer-link-item">
+                                <a href="#">Packages</a>
+                            </li>
+                            <li class="footer-link-item">
+                                <a href="#">COntact us</a>
+                            </li>
+                            <li class="footer-link-item">
+                                <a href="#">About us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col col-3">
+                        <ul class="footer-link">
+                            <li class="footer-link-item">
+                                <a href="#">Terms of service</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col col-4">
+                        <ul class="footer-link">
+                            <li class="footer-link-item">
+                                <a href="#">For More Information</a>
+                            </li>
+                            <li class="footer-link-item">
+                                <a href="#">info@theblueprints.co</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col col-5">
+                    </div>
+                </div>
+            </footer> -->
+            <p></p>
+            <!-- <button onclick="onclickNow()">click here</button> -->
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script type="text/javascript" charset="utf8"
+        src="https://cdn.datatables.net/1.12.0/js/jquery.dataTables.js"></script>
+
+
+    <script>
+
+        //   function onclickNow(){
+            //     $.ajax('/data.json', {
+            //     type: 'POST', 
+            //     headers: {
+            //         "Content-Type": "application/x-www-form-urlencoded",
+            //     },
+            //     data: { 
+            //         start_urls: 'https://www.medsnews.com/health/different-cbd-consumption-methods-2021/,https://www.weirdworm.com/best-ways-to-use-cbd/,https://primmart.com/the-rise-of-cbd-topicals-why-are-they-so-effective/,https://pluralist.com/cbd-cream-and-how-it-works/,https://takeitpersonelly.com/2021/04/14/6-important-facts-about-cbd/,https://www.homejobsbymom.com/10-medical-conditions-you-can-consider-using-cbd-oil/,https://ridzeal.com/want-to-join-a-cbd-affiliate-program-tips-on-choosing-the-right-one/,https://www.theclintoncourier.net/2021/05/03/3-amazing-health-benefits-of-cbd/,https://www.archynewsy.com/a-new-study-indicates-that-cbd-seems-to-protect-against-covid/,https://goodfileshare.com/top-benefits-of-using-the-best-hemp-plants-extract/ ',
+
+            //         company_name: 'https://createbetterdayscbd.co.uk/'
+            //     },
+            //     success: function (data, status, xhr) {
+            //         $('p').append('status: ' + status + ', data: ' + data);
+            //     },
+            //     error: function (jqXhr, textStatus, errorMessage) {
+            //         $('p').append('Error' + errorMessage);
+            //     }
+            // });
+            // }
+        // $(document).ready(function () {
+        //     $('#table_id').DataTable();
+        // });
+        // function nameaddname(){
+        //            return `${name} hello`
+        //         }
+        $(document).ready(function () {
+            
+            $('#example').DataTable({
+                ajax: {
+                url: 'data.txt',
+                dataSrc: '',
+        },
+
+                "columns": [
+                    { "data": "rel_attr" },
+                    { "data": "source" },
+                    { "data": "surround_text" },
+                    { "data": "text" },
+                    { "data": "url" },
+                ]
+            });
+        
+        });
+ 
+ 
+    </script>
+</body>
+
+</html>
